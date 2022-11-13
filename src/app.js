@@ -4,9 +4,9 @@ import categoryRoutes from './routes/category.routes.js'
 // import cors from 'cors'
 const cors = require('cors')
 
-app.use(cors())
-const app = express()
 
+const app = express()
+app.use(cors())
 app.use('/api',categoryRoutes)
 app.use('/api',productRoutes)
 
