@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "mode": "no-cors",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
