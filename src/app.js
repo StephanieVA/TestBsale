@@ -1,7 +1,9 @@
 import express from 'express'
 import productRoutes from './routes/product.routes.js'
 import categoryRoutes from './routes/category.routes.js'
+import cors from 'cors'
 
+app.use(cors())
 const app = express()
 
 app.use('/api',categoryRoutes)
