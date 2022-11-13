@@ -1,6 +1,7 @@
 import app from './app.js'
 import {PORT} from './config.js'
-const cors = require('cors')
+// const cors = require('cors')
+import cors from 'cors'
 
 app.use(cors())
 
